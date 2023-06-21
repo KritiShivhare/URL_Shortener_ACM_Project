@@ -101,6 +101,12 @@ The URL shortener application follows the following internal working:
 - The **'/deleteUrl'** route handles the deletion of URLs. It deletes the document with a specific short URL using ShortUrl.deleteOne().
 - The **'/shortUrl'** route handles the redirection of a short URL to its corresponding full URL. It finds the document with the given short URL using ShortUrl.findOne() and redirects the user to the full URL.
 
+### Hosting the website:
+  Deployed the project on render.com.
+  Here's the link:
+
+https://url-shortener-acm-project-kritishivhare.onrender.com/
+
  ## Key take-aways:
 - Building a URL shortener using Express.js and MongoDB.
 - Storing shortened URLs in a MongoDB database.
@@ -114,6 +120,7 @@ The URL shortener application follows the following internal working:
 
   ## Refrences ##
   - https://www.youtube.com/watch?v=SLpUKAGnm-g&t=1098s
+
   
 
 
